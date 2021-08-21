@@ -1,4 +1,4 @@
-Implementation of [1]. The idea of this model is that if we represent input as matrices, we can significantly reduce the amount of fully connected layer (e.g. nn.Linear) parameters many times, which potentially provide better generalization with the same amount of data.
+Implementation of [1]. The idea of this model is that if we represent input as matrices, we can reduce the amount of fully connected layer (e.g. nn.Linear) parameters many times, which potentially provide better generalization with the same amount of data.
 
 
 
