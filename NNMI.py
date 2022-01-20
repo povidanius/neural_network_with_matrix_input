@@ -2,7 +2,8 @@ import torch
 import torch.nn as nn
 
 
-# P. Daniušis, Pr. Vaitkus. Neural network with matrix inputs. INFORMATICA, 2008, Vol. 19, No. 4, 477-486
+# P. Daniušis (ORCID 0000-0001-5977-827X), Pr. Vaitkus. Neural network with matrix inputs. INFORMATICA, 2008, Vol. 19, No. 4, 477-486
+
 def get_num_parameters(model):
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
 
